@@ -131,6 +131,10 @@ grid-auto-columns: 50vw;
             margin-bottom: 2vh;
             margin-top: 2vh;
         }
+
+        h2{
+            font-size: medium;
+        }
   }
   
 
