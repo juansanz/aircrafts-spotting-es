@@ -1,3 +1,3 @@
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^aircraftspotting.es [NC]
-RewriteRule ^(.*)$ http://www.aircraftsspotting.es/$1 [L,R=301]
+RewriteRule ^(.*)$ http://www.aircraftsspotting.es/ [L,R=301]
