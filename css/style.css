@@ -24,17 +24,11 @@ h2{
 background-image: url("about_bck.png");
 }
 
-
-
-
-.navbar{
-height: 5vh;
-display: grid;
-grid-template-columns: repeat(10 , 1fr);
-padding:0 3vw 0 3vw;
-
-
+.navbtn{
+    -webkit-tap-highlight-color: transparent;
 }
+
+
 
 .nav_buttons{
 height: 5vh;
