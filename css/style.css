@@ -129,6 +129,23 @@ grid-auto-columns: 50vw;
         h2{
             font-size: 12pt;
         }
+        .navcomponent {
+            text-align: center;
+            background-color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            
+        }
+
+        .plane_photos, .about{
+            flex-wrap: wrap; /* Adjust as needed */
+            margin-top: 4vh;
+            
+            }
+
+    
   }
   
 
