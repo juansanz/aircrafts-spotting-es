@@ -97,6 +97,12 @@ grid-auto-columns: 50vw;
     
 }
 
+.copyright{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 @media (max-width: 700px) {
     .row{
        
@@ -129,7 +135,7 @@ grid-auto-columns: 50vw;
         h2{
             font-size: 12pt;
         }
-        .navcomponent {
+        .navcomponent{
             text-align: center;
             background-color: white;
             position: fixed;
