@@ -126,6 +126,11 @@ grid-auto-columns: 50vw;
         p{
             font-size: medium;
         }
+
+        .pfp{
+            margin-bottom: 2vh;
+            margin-top: 2vh;
+        }
   }
   
 
