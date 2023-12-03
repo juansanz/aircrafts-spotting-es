@@ -115,6 +115,13 @@ grid-auto-columns: 50vw;
         width: 80vw;
         
         }
+
+
+        .about{
+   
+        grid-auto-columns: 70vw;
+            
+        }
   }
   
 
