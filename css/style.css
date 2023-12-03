@@ -7,7 +7,7 @@ text-decoration: none;
 p{
 font-family: Arial, Helvetica, sans-serif;
 color: rgb(48, 48, 48);
-font-size: large;
+font-size: 20pt;
 text-align: justify;
 
 }
@@ -16,6 +16,7 @@ h2{
 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 22pt;
     
 
 }
@@ -103,6 +104,22 @@ grid-auto-columns: 50vw;
     text-align: center;
 }
 
+.navcomponent{
+    text-align: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.plane_photos, .about{
+    flex-wrap: wrap; /* Adjust as needed */
+    margin-top: 4vh;
+    
+    }
+
 @media (max-width: 700px) {
     .row{
        
@@ -131,26 +148,16 @@ grid-auto-columns: 50vw;
             margin-bottom: 1vh;
             margin-top: 1vh;
         }
+        p{
+            font-size: 10pt;
+        }
 
         h2{
             font-size: 12pt;
         }
-        .navcomponent{
-            text-align: center;
-            background-color: white;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            
-        }
 
-        .plane_photos, .about{
-            flex-wrap: wrap; /* Adjust as needed */
-            margin-top: 4vh;
-            
-            }
-
+    
+     
     
   }
   
@@ -167,5 +174,12 @@ grid-auto-columns: 50vw;
     .plane_img{
         width: 45vw;
         }
+      
+        .about{
+   
+            grid-auto-columns: 70vw;
+                
+            }
+       
   }
 
