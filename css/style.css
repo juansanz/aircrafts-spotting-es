@@ -122,6 +122,10 @@ grid-auto-columns: 50vw;
         grid-auto-columns: 70vw;
             
         }
+
+        p{
+            font-size: medium;
+        }
   }
   
 
